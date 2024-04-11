@@ -1,0 +1,31 @@
+body {
+  background-image: url("ceviche.jpg");
+
+  font-family: "Zeyada", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+img {
+  opacity: 0.5;
+}
+header {
+  font-size: 55px;
+  text-align: center;
+  font-weight: 500;
+}
+h1 {
+  text-align: center;
+}
+.small {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.recipe-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1ebe5;
+}
+
+.recipe-instructions {
+  border: 3px solid black;
+}
