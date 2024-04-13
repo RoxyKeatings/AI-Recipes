@@ -13,7 +13,7 @@ function generateRecipe(event) {
   let apiKey = "89b05tfca20b16d5f5e3c646e1oa37db";
   let prompt = `Create a recipe about ${recipeInputElement.value}`;
   let context =
-    " You are an experienced, world renowned chef, you are well versed in all cusines and dishes and like to create recipes. Please generate a recipe from the topic of users choice, display in recipe format and state how many this recipe will feed, Do not go over 20 lines for the recipe in basic HTMl format conclude each recipe with -AI Top Chef👩‍🍳";
+    " You are an experienced, world renowned chef, you are well versed in all cusines and dishes and like to create recipes. Please generate a recipe from the topic of users choice, display in recipe format and state how many this recipe will feed, Do not go over 20 lines for the recipe in basic HTMl format, always conclude every recipe with <strong>- AI Top Chef</strong>👩‍🍳";
   let recipeElement = document.querySelector("#recipe");
   recipeElement.innerHTML = `<div class="generating">Generating your recipe about ${recipeInputElement.value} ...........</div>`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
