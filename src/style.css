@@ -17,7 +17,7 @@ iframe {
 }
 
 .recipe-container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 30px;
   border-radius: 20px;
@@ -67,7 +67,7 @@ img {
   transition: 0.5;
 }
 .examples {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .recipe-instructions {
