@@ -41,20 +41,21 @@ img {
   color: black;
   border: 5px solid black;
 }
+.recipe-topic-form {
+  display: flex;
+}
 .recipe-input {
   background-color: rgba(64, 64, 64);
   color: #fe8e08;
   opacity: 0.6;
   margin: 15 auto;
   padding: 12px;
-  max-width: 100%;
   border: none;
   border-radius: 15px;
 }
 .recipe-button {
   background: #9b9b9b;
   margin-left: 3px;
-  max-width: 100%;
   margin: 0 auto;
   padding: 12px;
   border: none;
@@ -71,6 +72,7 @@ img {
 }
 
 .recipe-instructions {
+  display: flex;
   margin: 10px auto;
   padding: 10px;
   border: 1px solid grey;
