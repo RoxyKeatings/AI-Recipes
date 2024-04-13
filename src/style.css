@@ -78,6 +78,9 @@ img {
   font-size: 30px;
   font-weight: 300;
 }
+a {
+  color: black;
+}
 footer {
   margin: 30px auto;
   text-align: center;
