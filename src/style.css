@@ -66,6 +66,9 @@ img {
   color: rgb(64, 64, 64);
   transition: 0.5;
 }
+.examples {
+  font-size: 14px;
+}
 
 .recipe-instructions {
   margin: 10px auto;

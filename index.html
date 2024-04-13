@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>AI Recipe Generator</title>
 </head>
 
@@ -30,12 +31,14 @@
         </div>
         <div class="AI-Recipe-Generator-Container">
             <div class="form-container">
-                <form>
-                    <input type="text" placeholder="Enter Cuisine for Recipe" required class="recipe-input" />
-                    <input type="submit" class="recipe-button" />
+                <form id="recipe-topic-form">
+                    <input type="text" placeholder="Enter dish you would like to try..." required class="recipe-input"
+                        id="recipe-input" />
+                    <input type="submit" class="recipe-button" id="recipe-button" />
                 </form>
             </div>
-            <div> I.E. Lasagna recipe, , Sushi, Ceviche</div>
+            <div class="examples"> <strong>I.E. Smoked Salmon, Salsa, Brownies !
+                </strong></div>
             <div class="recipe-instructions" id="recipe"></div>
         </div>
     </div>
